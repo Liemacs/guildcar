@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Schedule - Guild Car</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Daily Schedule - Guild Car</h1>
+  <div class="schedule" id="schedule-list"></div>
+
+  <script>
+    fetch('data.json')
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById('schedule-list');
+        const azi = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+
+        Object.keys(data).sort().forEach(date => {
+          const info = data[date];
+          const dataObj = new Date(date);
+          const zi = String(dataObj.getDate()).padStart(2, '0');
+          const luna = String(dataObj.getMonth() + 1).padStart(2, '0');
+          const ziuaSaptamanii = dataObj.toLocaleDateString('en-EN', { weekday: 'long' });
+
+          const card = document.createElement('div');
+          card.className = 'entry';
+
+          const personHTML = info.nume ? `
+            <div class="person">
+              <img class="avatar" src="${info.poza}" alt="${info.nume}">
+              <div class="name-role">
+                <div class="name">${info.nume}</div>
+                <div class="role">[${info.rol}]</div>
+              </div>
+            </div>` : ``;
+
+          const badge = azi === date ? `<div class="today-badge">Today</div>` : '';
+
+          card.innerHTML = `
+            ${personHTML}
+
+            <div class="date-section">
+                ${badge}
+              <div class="date-info">
+                 <div class="date">${zi}/${luna}</div>
+                <span class="day">${ziuaSaptamanii}</span>
+                </div>
+            </div>
+          `;
+
+          container.appendChild(card);
+        });
+      });
+  </script>
+</body>
+</html>
