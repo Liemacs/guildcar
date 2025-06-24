@@ -1,4 +1,19 @@
 {
+  "2025-06-15": {
+      "nume": "Liemax",
+      "poza": "img/liemax.png",
+      "rol": "R4"
+    },
+    "2025-06-16": {
+      "nume": "Madara",
+      "poza": "img/madara.png",
+      "rol": "R3"
+    },
+    "2025-06-17": {
+      "nume": "Qywter",
+      "poza": "img/qywter.png",
+      "rol": "R3"
+    },
     "2025-06-18": {
       "nume": "Swirv",
       "poza": "img/swirv.png",
@@ -61,16 +76,6 @@
     "2025-06-30": {
       "nume": "Aniko",
       "poza": "img/aniko.png",
-      "rol": "R4"
-    },
-    "2025-07-01": {
-      "nume": "ķĩmő",
-      "poza": "img/kimo.png",
-      "rol": "R3"
-    },
-    "2025-07-02": {
-      "nume": "Paladin20",
-      "poza": "img/paladin20.png",
       "rol": "R4"
     },
     "2025-07-03": {
