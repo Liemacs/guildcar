@@ -1,25 +1,4 @@
 {
-   
-    "2025-06-24": {
-      "nume": "Paladin20",
-      "poza": "img/paladin20.png",
-      "rol": "R4"
-    },
-    "2025-06-25": {
-      "nume": "Aya",
-      "poza": "img/aya.png",
-      "rol": "R4"
-    },
-    "2025-06-26": {
-      "nume": "bby Venus",
-      "poza": "img/bbyvenus.png",
-      "rol": "R3"
-    },
-    "2025-06-27": {
-      "nume": "jetii",
-      "poza": "img/jetii.png",
-      "rol": "R2"
-    },
     "2025-06-28": {
       "nume": "phamine",
       "poza": "img/phamine.png",
@@ -64,7 +43,11 @@
       "poza": "img/bbyvenus.png",
       "rol": "R3"
     },
-    "2025-07-07": {},
+    "2025-07-07": {
+      "nume": "Swirv",
+      "poza": "img/swirv.png",
+      "rol": "R5"
+    },
     "2025-07-08": {},
     "2025-07-09": {},
     "2025-07-10": {},
