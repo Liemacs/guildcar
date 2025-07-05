@@ -1,39 +1,4 @@
 {
-  "2025-06-28": {
-    "nume": "phamine",
-    "poza": "img/phamine.png",
-    "rol": "R2"
-  },
-  "2025-06-29": {
-    "nume": "Aya",
-    "poza": "img/aya.png",
-    "rol": "R4"
-  },
-  "2025-06-30": {
-    "nume": "Aniko",
-    "poza": "img/aniko.png",
-    "rol": "R4"
-  },
-  "2025-07-01": {
-    "nume": "ķĩmő",
-    "poza": "img/kimo.png",
-    "rol": "R3"
-  },
-  "2025-07-02": {
-    "nume": "Paladin20",
-    "poza": "img/paladin20.png",
-    "rol": "R4"
-  },
-  "2025-07-03": {
-    "nume": "Mirzxt",
-    "poza": "img/mirzxt.png",
-    "rol": "R2"
-  },
-  "2025-07-04": {
-    "nume": "Liemax",
-    "poza": "img/liemax.png",
-    "rol": "R4"
-  },
   "2025-07-05": {
     "nume": "Madara",
     "poza": "img/madara.png",
@@ -59,9 +24,21 @@
     "poza": "img/aya.png",
     "rol": "R4"
   },
-  "2025-07-10": {},
-  "2025-07-11": {},
-  "2025-07-12": {},
+  "2025-07-10": {
+    "nume": "OC",
+    "poza": "img/jetii.png",
+    "rol": "R3"
+  },
+  "2025-07-11": {
+    "nume": "Lepcy",
+    "poza": "img/lepsy.png",
+    "rol": "R4"
+  },
+  "2025-07-12": {
+    "nume": "Paladin20",
+    "poza": "img/paladin20.png",
+    "rol": "R3"
+  },
   "2025-07-13": {},
   "2025-07-14": {},
   "2025-07-15": {},
