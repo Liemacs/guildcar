@@ -1,54 +1,33 @@
 {
-  "2025-07-07": {
-    "nume": "Swirv",
-    "poza": "img/swirv.png",
-    "rol": "R5"
-  },
-  "2025-07-08": {
-    "nume": "Weak Hero",
-    "poza": "img/weakhero.png",
-    "rol": "R3"
-  },
-  "2025-07-09": {
-    "nume": "Aya",
-    "poza": "img/aya.png",
-    "rol": "R4"
-  },
-  "2025-07-10": {
-    "nume": "🐙🐱OC🐱🐙",
-    "poza": "img/jetii.png",
-    "rol": "R3"
-  },
-  "2025-07-11": {
-    "nume": "Lepcy",
-    "poza": "img/lepsy.png",
-    "rol": "R4"
-  },
-  "2025-07-12": {
-    "nume": "Paladin20",
-    "poza": "img/paladin20.png",
-    "rol": "R3"
-  },
   "2025-07-13": {
     "nume": "Mirzxt",
-      "poza": "img/mirzxt.png",
-      "rol": "R2"
+    "rol": "R2"
   },
   "2025-07-14": {
     "nume": "Jim",
-    "poza": "img/jetii.png",
     "rol": "R3"
   },
-  "2025-07-15": {},
+  "2025-07-15": {
+    "nume": "Aniko",
+    "rol": "R3"
+  },
   "2025-07-16": {},
-  "2025-07-17": {},
+  "2025-07-17": {
+    "nume": "Weak Hero",
+    "rol": "R3"
+  },
   "2025-07-18": {
     "nume": "bby Venus",
-    "poza": "img/bbyvenus.png",
     "rol": "R3"
   },
-  "2025-07-19": {},
-  "2025-07-20": {},
+  "2025-07-19": {
+    "nume": "Liemax",
+    "rol": "R2"
+  },
+  "2025-07-20": {
+    "nume": "Madara",
+    "rol": "R3"
+  },
   "2025-07-21": {},
   "2025-07-22": {},
   "2025-07-23": {},

@@ -9,7 +9,7 @@
 <body>
   <h1>Daily Schedule - Guild Car</h1>
   <div class="schedule" id="schedule-list"></div>
-
+  <!-- <img class="avatar" src="${info.poza}" alt="${info.nume}"> -->
   <script>
     fetch('data.json')
       .then(res => res.json())
@@ -29,7 +29,7 @@
 
           const personHTML = info.nume ? `
             <div class="person">
-              <img class="avatar" src="${info.poza}" alt="${info.nume}">
+              
               <div class="name-role">
                 <div class="name">${info.nume}</div>
                 <div class="role">[${info.rol}]</div>
